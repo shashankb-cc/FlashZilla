@@ -11,6 +11,7 @@
 		9993D0F12D796DA700F85DDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9993D0F02D796DA700F85DDF /* ContentView.swift */; };
 		9993D0F32D796DAD00F85DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9993D0F22D796DAD00F85DDF /* Assets.xcassets */; };
 		9993D0F62D796DAD00F85DDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9993D0F52D796DAD00F85DDF /* Preview Assets.xcassets */; };
+		9993D0FE2D79829A00F85DDF /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9993D0FD2D79829A00F85DDF /* Gestures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9993D0F02D796DA700F85DDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9993D0F22D796DAD00F85DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9993D0F52D796DAD00F85DDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9993D0FD2D79829A00F85DDF /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		9993D0ED2D796DA700F85DDF /* FlashZilla */ = {
 			isa = PBXGroup;
 			children = (
+				9993D0FC2D79828900F85DDF /* Exercises */,
 				9993D0EE2D796DA700F85DDF /* FlashZillaApp.swift */,
 				9993D0F02D796DA700F85DDF /* ContentView.swift */,
 				9993D0F22D796DAD00F85DDF /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				9993D0F52D796DAD00F85DDF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9993D0FC2D79828900F85DDF /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				9993D0FD2D79829A00F85DDF /* Gestures.swift */,
+			);
+			path = Exercises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9993D0FE2D79829A00F85DDF /* Gestures.swift in Sources */,
 				9993D0F12D796DA700F85DDF /* ContentView.swift in Sources */,
 				9993D0EF2D796DA700F85DDF /* FlashZillaApp.swift in Sources */,
 			);
